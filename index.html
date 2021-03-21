@@ -19,14 +19,16 @@
             </section>
 
             <section class="nav-buttons">
-                <a class="nav-btn" id="about-me"href="#">About Me</a>
-                <a class="nav-btn" id="work" href="#">Work</a>
-                <a class="nav-btn" id="contact-me" href="#">Contact Me</a>
-                <a class="nav-btn" id="resume" href="#">Resume</a>
+                <ul>
+                    <li><a class="nav-btn" id="about-me"href="#about-me-container">About Me</a></li>
+                    <li><a class="nav-btn" id="work" href="#work-container">Work</a></li>
+                    <li><a class="nav-btn" id="contact-me" href="#contact-me-container">Contact Me</a></li>
+                    <li><a class="nav-btn" id="resume" href="#">Resume</a></li>
+                </ul>
             </section>
         </nav>
         <div class="banner-container">
-            <img src="./assets/snow-mountains-moon-light-and-lake-reflection-landscape-header.jpg" id="banner-img" alt="snowy mountain range at night">
+            <img src="./assets/Screenshot (7).png" id="banner-img" alt="snowy mountain range at night">
             <h1 id="subtitle-box">Professional Amateur</h1>
         </div>
 
@@ -34,11 +36,82 @@
     </header>
 
     <main>
+        <section id="about-me-container">
+            <aside class="aside-box" id="about-me-label">
+                <h2>About <br> Me</h2>
+            </aside>
+            <section id="about-me-content">
+                <p>Greetings!</p>
+                <p>My name is Ty, and I am an up-and-coming web developer coming out of the University of Washington's Full-Stack Web Engineering Certification program. Up to this point, my careers have been mostly distinct from programming, but I have made a recent switch into this field with a complete intention to learn everything I can about building quality projects. 
+                </p>   
+                <p> When I am not developing apps, I am usually either skiing, running, planning a mountaineering trip, teaching guitar and piano, or going on walks. Programming is my passion, but I could not enjoy it nearly as much if I was not able to get out into the backcountry every so often. I currently live just north of Spokane, WA in a cozy corner of the woods with my wife and Malamute. 
+                </p>
+            </section>
+        </section>
+
+        <section id="work-container">
+            <aside class="aside-box" id="work-label">
+                    <h2>Work</h2>
+            </aside>
+            <section id="work-content">
+                <div class="work-box-main" id="tripcrownbox">
+                    <a href="#"><img src="./assets/longroad.jpg" alt="long road pic"></a>
+                    <a href="#"><div id="tripcrown">
+                        <h3>Triple Crown Blog</h3>
+                        <p>Not Deployed</p>
+                    </div></a>
+                </div>
+
+                <div class="work-box" id="cssmac">
+                    <a href="#"><img src="./assets/cssmac.jpg" alt="css on mac"></a>
+                    <a href="#"><div class="project-label-box">
+                        <h3>Future Website</h3>
+                        <p>Not Deployed</p>
+                    </div></a>
+                </div>
+        
+                <div class="work-box" id="skyline">
+                    <a href="#"><img src="./assets/skyline.jpg" alt="skyline"></a>
+                    <a href="#"><div class="project-label-box">
+                        <h3>City Scape</h3>
+                        <p>Not Deployed</p>
+                    </div></a>
+                </div>
+
+                <div class="work-box" id="bamboo">
+                    <a href="#"><img src="./assets/bamboo.jpg" alt="pic of hiker on roof"></a>
+                    <a href="#"><div class="project-label-box">
+                        <h3>Hiker Trash</h3>
+                        <p>Not Deployed</p>
+                    </div></a>
+                </div>
+
+                <div class="work-box" id="social-media">
+                    <a href="#"><img src="./assets/socialmedia.jpg" alt="social media apps"></a>
+                    <a href="#"><div class="project-label-box">
+                        <h3>The New App</h3>
+                        <p>Not Deployed</p>
+                    </div></a>
+                </div>
+            </section>
+        </section>
+        
+        <section id="contact-me-container">
+            <aside class="aside-box" id="contact-me-label">
+                <h2>Contact <br> Me</h2>
+            </aside>
+            <section id="contact-links">
+                <ul id="contact-list">
+                    <li><a class="contact-item" href="tel:1-509-833-1079">509.833.1079</a></li>
+                    <li><a class="contact-item" href="mailto:tylercmac@gmail.com">tylercmac@gmail.com</a></li>
+                    <li><a class="contact-item" href="https://github.com/tylercmac" target="_blank">GitHub</a></li>
+                    <li><a class="contact-item" href="https://www.instagram.com/thescottishduck/" target="_blank">Instagram</a></li>
+                    <li><a class="contact-item" href="https://www.youtube.com/user/FreerunTMac/featured" target="_blank">YouTube</a></li>
+                </ul>
+            </section>
+        </section>
 
     </main>
 
-    <footer>
-
-    </footer>
 </body>
 </html>
