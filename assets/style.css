@@ -261,4 +261,23 @@ ul {
     #cssmac, #skyline, #bamboo, #social-media {
         width: 100%;
     }
+    .aside-box {
+        min-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav {
+        height: 125px;
+    
+    }
+    .nav-buttons {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+    .aside-box {
+        min-width: 150px;
+    }
 }
