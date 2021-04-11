@@ -23,7 +23,6 @@ nav {
     flex-wrap: wrap;
     background-color: rgb(73, 72, 72);
     width: 100%;
-    height: 75px;
 }
 
 h1 {
@@ -309,11 +308,14 @@ ul {
     }
 
     ul {
+        display: flex;
+        width: 100%;
         font-size: small;
         padding: 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .nav-buttons li {
-        min-width: fit-content;
     }
 
 }
@@ -330,3 +332,39 @@ ul {
     #work-content {
         padding: 0;
     }
+
+    #tripcrown {
+        position: inherit;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    #tripcrown h3 {
+        text-decoration: underline black;
+    }
+
+    .project-label-box {
+        position: inherit;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .project-label-box h3 {
+        text-decoration: underline black;
+    }
+
+    .work-box img {
+        height: auto;
+    }
+    
+    .project-label-box p, #tripcrown p {
+        text-decoration: underline;
+        text-decoration-color: paleturquoise;
+    }
+
+    #about-me-content {
+        font-size: 100%;
+        margin: 10px;
+        line-height: 1.3;
+    }
+}
