@@ -211,6 +211,16 @@ ul {
     line-height: 1.5;
 }
 
+span.headshot {
+    position: absolute;
+    margin: 8% 5%;
+    display: flex;
+}
+
+#headshotimg {
+    border-radius: 5rem;
+    width: 20%;
+}
 
 #contact-me-container {
     display: flex;
@@ -272,7 +282,9 @@ ul {
 }
 
 @media only screen and (max-width: 900px) {
-
+    span.headshot {
+        margin: 5%;
+    }
 }
 
 @media only screen and (max-width: 786px) {
